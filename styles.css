@@ -5,6 +5,13 @@ h1,
 h2 {
   font-family: "Raleway", sans-serif;
 }
+a {
+  text-decoration: none;
+  color: wheat;
+}
+a:hover {
+  color: white;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -12,6 +19,9 @@ body {
   background-color: hsl(218, 28%, 13%);
   color: white;
   font-family: "Raleway", sans-serif;
+}
+.header {
+  margin-bottom: 80px;
 }
 
 .logo {
@@ -23,6 +33,7 @@ body {
   align-items: flex-end;
   flex-direction: column;
   padding-top: 70px;
+
 }
 
 .nav ul li {
@@ -30,31 +41,29 @@ body {
   display: inline;
   margin: 0 10px 20px 0;
   font-size: 1.1em;
+
 }
 
-.intro_img {
-  border: 1px solid red;
-  padding-top: 70px;
-  padding-left: 80px;
-  display: flex;
-  width: 100%;
+/*Applied on Intro Image*/
+.intro_img{
   height: auto;
+  max-width: 100%;
+  text-align: center;
 }
 
 .first_heading {
-  border: 1px solid red;
   font-size: 1.9em;
   display: flex;
   justify-content: center;
   margin: auto;
   line-height: 2.2em;
+
 }
 .first_heading h2 {
   text-align: center;
   width: 60%;
 }
 .first_content {
-  border: 1px solid red;
   justify-content: center;
   display: flex;
   font-size: 1.4em;
@@ -81,18 +90,19 @@ body {
   height: 3.2rem;
   width: 15rem;
   text-align: center;
-}
-
-.button_text {
-  padding-top: 18px;
-}
-
-@media screen and (min-width: 650px) {
-  .logo {
-    padding: 70px 0px 0px 70px;
-    float: left;
   }
-  .nav ul li {
-    margin: 0 50px 20px 0;
+
+  .button_text {
+    padding-top: 18px;
   }
-}
+
+  @media screen and (min-width: 650px) {
+    .logo {
+      padding: 70px 0px 0px 70px;
+      float: left;
+    }
+    .nav ul li {
+      margin: 0 50px 20px 0;
+    }
+  }
+ 
