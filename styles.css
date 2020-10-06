@@ -111,7 +111,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
   }
-  
+
   .features_bottom {
     display: flex;
     flex-direction: row;
@@ -133,40 +133,36 @@ body {
     max-width: 400px;
     padding: 30px 140px 0 0;
   }
-  
+
   .feature4 {
     max-width: 320px;
     padding: 40px 0 0 0;
   }
-
+  .work_section {
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .work_heading {
-    float: right;
-    padding: 80px 50px 0 0;
+    padding: 80px 100px 0 0;
     max-width: 300px;
-    border: 6px solid red;
     margin-right: 100px;
+    font-size: 5em;
   }
-  .work_para {
-    border: 1px solid red;
-    float: right;
-    max-width: 300px;
-    font-size: 20px;
+  .work_heading h1 {
+    font-size: 3em;
   }
 
-  .work_heading {
-    border: 1px solid red;
-    font-size: 10px;
-  }
-  .work_para {
-    border: 1px solid green;
-    font-size: 14px;
-  }
-
-  .work_link {
-  border: 1px solid red;
-  max-width: 150px;
-  }
   
+  .work_para p {
+    font-size: 1em;
+  }
+  .work_link {
+    max-width: 150px;
+  }
+
   .work_link a {
     text-decoration: underline;
     line-height: 2em;
@@ -201,7 +197,6 @@ body {
 .feature2 {
   max-width: 380px;
   padding-top: 50px;
-
 }
 .feature3 {
   max-width: 400px;
@@ -214,33 +209,61 @@ body {
 }
 
 .work_section {
-  float: left;
   margin: 30px 50px;
-  border: 1px solid red;
-  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+
 }
 .work_section img {
-  border: 1px solid red;
   height: auto;
   max-width: 100%;
 }
 .work_heading {
-  border: 1px solid red;
-  font-size: 10px;
+  font-size: 0.8em;
 }
 .work_para {
-  border: 1px solid green;
-  font-size: 14px;
+  font-size: 1.6em;
+  width: 430px;
 }
 
 .work_link {
-border: 1px solid red;
-max-width: 150px;
-font-size: 14px;
-
+  max-width: 150px;
+  font-size: 1.3em;
 }
 
 .work_link a {
   text-decoration: underline;
   line-height: 2em;
+}
+
+.reviews{
+  border: 1px solid red;
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.review1, .review2, .review3 {
+  background-color: hsl(219, 30%, 18%);
+  border: 1px solid blue;
+  margin-right: 20px;
+  height: 150px;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+}
+.review1 {
+  margin-left: 90px;
+}
+
+.review3 {
+  margin-right: 90px;
+}
+
+.person img {
+  border-radius: 50px;
 }
