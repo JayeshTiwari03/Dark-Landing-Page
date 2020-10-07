@@ -407,11 +407,11 @@ body {
   font-size: 15px;
   margin-right: 60px;
 }
-.first_footer p{
-  padding-left:30px;
+.first_footer p {
+  padding-left: 30px;
 }
-.first_footer p{
-  padding-left:20px;
+.first_footer p {
+  padding-left: 20px;
 }
 .contact {
   width: 30%;
@@ -446,8 +446,8 @@ body {
   list-style: none;
   display: inline-block;
   border: 1px solid white;
-border-radius: 20px;
-padding: 5px;
+  border-radius: 20px;
+  padding: 5px;
 }
 .social_media ul {
   display: inline-block;
