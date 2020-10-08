@@ -19,12 +19,17 @@ a:hover {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  background-color: hsl(218, 28%, 13%);
+  background-color: hsla(218, 28%, 13%, 0.9);
   color: white;
   font-family: "Raleway", sans-serif;
+  
+  background-repeat: repeat-x;
+  background-position: 0%;
 }
 .header {
   margin-bottom: 80px;
+  margin: auto;
+  max-width: 1440px;
 }
 
 .logo {
@@ -53,8 +58,8 @@ body {
 }
 .intro_img {
   text-align: center;
+  margin-top: 60px;
 }
-
 .first_heading {
   font-size: 1.9em;
   display: flex;
@@ -65,6 +70,7 @@ body {
 .first_heading h2 {
   text-align: center;
   max-width: 700px;
+  margin-top: 40px;
 }
 .first_content {
   justify-content: center;
@@ -177,6 +183,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     font-size: 14px;
+    max-width: 1158px;
+    margin: auto;
   }
 
   .review1,
@@ -192,8 +200,7 @@ body {
     flex-direction: row;
     font-size: 13px;
   }
-  .second_button {
-  }
+  
   .inputs {
     width: 19rem;
   }
@@ -213,6 +220,7 @@ body {
   justify-content: center;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  margin-top: 100px;
 }
 
 .features_bottom {
@@ -252,10 +260,13 @@ body {
   font-family: "Open Sans", sans-serif;
   width: 100%;
   margin: auto;
+  margin-top: 110px;
+  margin-bottom: 100px;
 }
 .work_section img {
   height: auto;
   max-width: 100%;
+  margin-right: 50px;
 }
 .work_heading {
   font-size: 0.8em;
@@ -375,17 +386,20 @@ body {
 
 .footer_box {
   background-color: hsl(216, 53%, 9%);
-  margin: -100px 0 0 0;
+    margin: -100px auto 0 auto;
+    max-width: 1024px;
 }
 
 .footer_logo {
-  margin: 200px 10% 0 10%;
+  margin: 200px 2% 0 0%;
 }
 
 .footer_content {
   display: flex;
-  flex-direction: row;
-  margin: 0 10% 0 10%;
+    flex-direction: row;
+    /* margin: 0 10% 0 10%; */
+    /* max-width: 1190px; */
+    margin: auto;
 }
 
 .footer_content img {
